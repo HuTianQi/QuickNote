@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tech.huqi.quicknote">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".QuickNoteApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.BaseActivity" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:configChanges="locale"
+            android:theme="@style/AppTheme.NoActionBar.Translucent" />
+
+        <activity android:name=".ui.activity.NoteDetailActivity" />
+        <activity android:name=".ui.activity.FreeHandActivity" />
+        <activity
+            android:name=".ui.activity.LockActivity"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen" />
+        <activity android:name=".ui.activity.VoiceShorthandActivity" />
+        <activity android:name=".ui.activity.SearchActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.authority"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="15590577" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="q2uPyBe6LmWTZlvb0g1dzcHV" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="y7S7hAI894BB3LF1yHYmvQEus1B6wPvj" />
+    </application>
+
+</manifest>

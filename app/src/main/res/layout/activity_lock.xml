@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/nav_header_avatar_size"
+        android:layout_height="@dimen/nav_header_avatar_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/gesture_avatar_margin_top"
+        android:src="@drawable/ic_default_avatar_24dp" />
+
+    <tech.huqi.quicknote.core.lockpattern.LockPatternIndicator
+        android:id="@+id/lockPatterIndicator"
+        android:layout_width="@dimen/gesture_lock_indicator_size"
+        android:layout_height="@dimen/gesture_lock_indicator_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/gesture_indicator_margin_top" />
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/gesture_tips_margin_top"
+        android:text="@string/gesture_create_default"
+        android:textColor="@color/gesture_text"
+        android:textSize="@dimen/text_size_m" />
+
+    <tech.huqi.quicknote.core.lockpattern.LockPatternView
+        android:id="@+id/lockPatternView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/gesture_lock_pattern_view_margin_left_right"
+        android:layout_marginTop="@dimen/gesture_lock_pattern_view_margin_top"
+        android:layout_marginRight="@dimen/gesture_lock_pattern_view_margin_left_right"
+        app:gesture_cellModeSelected="fill"
+        app:gesture_innerCircleFillSelected="@color/gesture_inner_color" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_forget_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/gesture_forget_to_bottom"
+        android:text="@string/gesture_lock_forget_pwd"
+        android:textColor="@color/gesture_text"
+        android:textSize="@dimen/text_size_m" />
+</LinearLayout>

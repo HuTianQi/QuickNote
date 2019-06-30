@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/app_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_dp_120"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_app_welcome" />
+
+    <TextView
+        android:id="@+id/beauty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_dp_20"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beauty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_dp_50"
+        android:gravity="center"
+        android:text="@string/app_slogan"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_20" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/common_dp_15"
+        android:text="@string/app_author"
+        android:textSize="@dimen/text_size_15" />
+</RelativeLayout>

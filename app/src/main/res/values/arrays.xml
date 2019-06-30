@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_preference_theme">
+        <item>@string/preference_theme_entry_default</item>
+        <item>@string/preference_theme_entry_night</item>
+    </string-array>
+    <string-array name="entry_values_preference_theme">
+        <item>@string/theme_value_default</item>
+        <item>@string/theme_value_night</item>
+    </string-array>
+    <string-array name="entries_preference_lang">
+        <!--<item>@string/preference_lang_entry_default</item>-->
+        <item>@string/preference_lang_entry_chinese</item>
+        <item>@string/preference_lang_entry_english</item>
+    </string-array>
+    <string-array name="entry_values_preference_lang">
+        <!--<item>@string/lang_value_default</item>-->
+        <item>@string/lang_value_chinese</item>
+        <item>@string/lang_value_english</item>
+    </string-array>
+</resources>

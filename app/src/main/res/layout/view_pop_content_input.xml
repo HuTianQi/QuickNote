@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_bg_pop_window_input"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/pop_content_input_padding_horizontal"
+    android:paddingTop="@dimen/pop_content_input_padding_top"
+    android:paddingRight="@dimen/pop_content_input_padding_horizontal"
+    android:paddingBottom="@dimen/pop_content_input_padding_bottom"
+    android:textColor="@color/pop_window_text_light"
+    android:textColorHint="@color/pop_window_text_light"
+    android:textCursorDrawable="@null"
+    android:textSize="@dimen/text_size_xl" />

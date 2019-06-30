@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickNote</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="mode_switch"> Switch mode</string>
+    <!--侧滑菜单-->
+    <string name="all_notes">All the notes</string>
+    <string name="recent_edit">Recent editor</string>
+    <string name="waste_basket">Waste paper basket</string>
+    <string name="settings">Settings</string>
+    <string name="share_app">Share</string>
+    <!--fab menu-->
+    <string name="fab_item_camera">Taking pictures</string>
+    <string name="fab_item_attachment">附件</string>
+    <string name="fab_item_voice_shorthand">Voice shorthand</string>
+    <string name="fab_item_freehand">Handwritten</string>
+    <string name="fab_item_text">Graphic notes</string>
+    <!-- note detail-->
+    <string name="hint_input_title">Click enter title</string>
+    <string name="hint_input_content">Write down your thoughts for the moment</string>
+    <!--toolbar menu detail-->
+    <string name="attachment">attachment</string>
+    <string name="camera">camera</string>
+    <string name="send">send</string>
+    <string name="remove">remove</string>
+    <string name="purchase_vip_tip">This function is exclusive for paying users. You can contact me to get the payment code after you make donation in the setting interface to use this function</string>
+    <!--toolbar menu common-->
+    <string name="search">search</string>
+    <string name="sort">sort</string>
+    <!--toolbar menu sort-->
+    <string name="sort_by_ascending">Ascending by creation time</string>
+    <string name="sort_by_descending">Descending by creation time</string>
+    <!--附件弹出菜单-->
+    <string name="attachment_pop_menu_album">Album</string>
+    <string name="attachment_pop_menu_record">Voice shorthand</string>
+    <string name="attachment_pop_menu_freehand">handwriting</string>
+
+    <!--主界面长按弹出菜单-->
+    <string name="rename">rename</string>
+    <string name="encrypt">encrypt</string>
+    <!--废纸篓长按弹出菜单-->
+    <string name="recovery">recovery</string>
+    <string name="delete">completely delete</string>
+
+    <string name="popup_window_cancel">cancel</string>
+    <string name="popup_window_sure">sure</string>
+
+    <string name="title_freehand">handwritten</string>
+    <string name="alert">warning</string>
+    <string name="clear_freehand_tip">Are you sure you want to clear all records?This operation is not recoverable after execution</string>
+    <string name="is_save_note">Do you keep your notes?</string>
+
+    <string name="preference_app">App</string>
+    <!--主题设置-->
+    <string name="preference_theme">Theme</string>
+    <string name="summary_preference_theme">Choose a theme</string>
+    <string name="preference_theme_entry_night">Night Mode</string>
+    <string name="preference_theme_entry_default">Default</string>
+    <!--语言设置-->
+    <string name="preference_lang">Language</string>
+    <string name="summary_preference_lang">Set the language</string>
+    <string name="preference_lang_entry_chinese">简体中文</string>
+    <string name="preference_lang_entry_english">English</string>
+    <!--自动更新-->
+    <string name="auto_check_update">Automatic detection update</string>
+    <string name="summary_auto_check_update">Automatically detect new versions when the application starts</string>
+    <string name="preference_key_auto_check_update">preference_key_auto_check_update</string>
+    <string name="prompt_close_auto_update">If you need to update after closing, you can go to the page about manually checking the update</string>
+    <!--手势密码-->
+    <string name="gesture_password">Gestures Password</string>
+    <string name="set_gesture_password">Open the gesture password to protect app privacy</string>
+    <!--其他-->
+    <string name="preference_other">Other</string>
+    <string name="title_preference_about">About</string>
+    <string name="summary_preference_about">Current version, check for updates, etc</string>
+    <string name="preference_recommend">Recommend the QuickNote</string>
+    <string name="summary_preference_recommend">Recommend QuickNote to friends</string>
+    <string name="title_preference_purchase">Donation or purchase payment function</string>
+    <string name="summary_preference_purchase">Find it useful to donate the author as an encouragement, or buy premium versions of paid features</string>
+    <string name="summary_preference_high_praise">Like it, go to the app store and give a good review.</string>
+    <string name="title_preference_high_praise">High praise</string>
+
+    <!--设置key与value-->
+    <string name="preference_key_theme">preference_key_theme</string>
+    <string name="theme_value_default">theme_default</string>
+    <string name="theme_value_night">theme_night</string>
+
+    <string name="preference_key_lang">preference_key_lang</string>
+    <string name="lang_value_default">lang_default</string>
+    <string name="lang_value_chinese">lang_chinese</string>
+    <string name="lang_value_english">lang_english</string>
+
+    <string name="preference_key_gesture_pwd">preference_key_gesture_pwd</string>
+    <string name="nick_default_tip">Welcome to QuickNote</string>
+    <string name="preference_key_about">preference_key_about</string>
+    <string name="preference_key_recommend">preference_key_recommend</string>
+    <string name="preference_key_donate">preference_key_donate</string>
+    <string name="preference_key_high_praise">preference_key_favorable_reception</string>
+
+    <!--启动页-->
+    <string name="app_author">QuickNote @hq All rights reserved</string>
+    <string name="app_slogan">Simple and easy to use notes app</string>
+
+    <!--手势密码解锁页面-->
+    <string name="gesture_lock_forget_pwd">Forgot password</string>
+    <string name="gesture_create_default">Draw gesture pattern</string>
+    <string name="gesture_create_correct">Draw the unlock pattern again</string>
+    <string name="gesture_create_less_error">Connect at least 4 dots. Please enter again</string>
+    <string name="gesture_create_confirm_error">Inconsistent with last draw, please redraw</string>
+    <string name="gesture_create_confirm_correct">Successful setup</string>
+    <string name="draw_gesture_pwd_incorrect">The unlock password is not drawn correctly. Please redraw it</string>
+
+    <!--搜索页面-->
+    <string name="title_search">Search</string>
+    <string name="search_no_data">Did not search any content, change key words to try!</string>
+    <string name="scene_transition_search">scene_transition_search</string>
+
+    <!--语音速记页面-->
+    <string name="please_speak">Click the voice button at the bottom, and the speech will be automatically recognized...</string>
+    <string name="recognize_failed">Speech recognition failure</string>
+    <string name="voice_recognize_no_speech">The voice detection engine detected a long period of silence and automatically shut down</string>
+    <string name="is_use_voice_auto_recognize_result">Are you sure you want to use automatic speech recognition results?Select \'ok\' to edit the content on the details page</string>
+
+    <!--关于页面-->
+    <string name="check_update">Detection of update</string>
+    <string name="about">About</string>
+    <string name="check_update_no_new_version">It is the latest version!</string>
+
+    <!--购买页面-->
+    <string name="purchase_payment">Most of the features of this app are free, but some advanced features are charged. If you want to use the advanced version of the payment function, you can scan the QR code below and send the screenshot to me to enjoy the one-year payment function. Or you want to reward the author or you can scan the QR code to complete the donation.</string>
+    <string name="purchase">Buy advanced features</string>
+    <!--分享-->
+    <string name="share_app_title">Share good things with your friends</string>
+    <string name="share_app_content">Dear friends, I found a very useful note-taking app, and I will share it with you in the principle of blessing and sharing!</string>
+    <!--权限-->
+    <string name="permission_tip">You need to grant recording rights and read the status of the phone using voice shorthand and file access to store the notes you create</string>
+    <string name="need_read_storage_permission">You need to grant read external storage permission to access your album images</string>
+</resources>

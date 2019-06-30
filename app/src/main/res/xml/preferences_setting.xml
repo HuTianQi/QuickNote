@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+    <PreferenceCategory android:title="@string/preference_app">
+        <ListPreference
+            android:dialogTitle="@string/preference_theme"
+            android:entries="@array/entries_preference_theme"
+            android:entryValues="@array/entry_values_preference_theme"
+            android:icon="@drawable/ic_skin_24dp"
+            android:key="@string/preference_key_theme"
+            android:summary="@string/summary_preference_theme"
+            android:title="@string/preference_theme" />
+        <ListPreference
+            android:dialogTitle="@string/preference_lang"
+            android:entries="@array/entries_preference_lang"
+            android:entryValues="@array/entry_values_preference_lang"
+            android:icon="@drawable/ic_language_24dp"
+            android:key="@string/preference_key_lang"
+            android:summary="@string/summary_preference_lang"
+            android:title="@string/preference_lang" />
+        <SwitchPreference
+            android:icon="@drawable/ic_auto_update_24dp"
+            android:key="@string/preference_key_auto_check_update"
+            android:summary="@string/summary_auto_check_update"
+            android:title="@string/auto_check_update" />
+        <SwitchPreference
+            android:icon="@drawable/ic_gesture_24dp"
+            android:key="@string/preference_key_gesture_pwd"
+            android:summary="@string/set_gesture_password"
+            android:title="@string/gesture_password" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_other">
+        <Preference
+            android:icon="@drawable/ic_about_24dp"
+            android:key="@string/preference_key_about"
+            android:summary="@string/summary_preference_about"
+            android:title="@string/title_preference_about" />
+
+        <PreferenceScreen
+            android:icon="@drawable/ic_recommend_24dp"
+            android:key="@string/preference_key_recommend"
+            android:summary="@string/summary_preference_recommend"
+            android:title="@string/preference_recommend">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.android.com" />
+        </PreferenceScreen>
+        <Preference
+            android:icon="@drawable/ic_high_praise_24dp"
+            android:key="@string/preference_key_high_praise"
+            android:summary="@string/summary_preference_high_praise"
+            android:title="@string/title_preference_high_praise" />
+        <!--<Preference-->
+            <!--android:icon="@drawable/ic_donate_24dp"-->
+            <!--android:key="@string/preference_key_donate"-->
+            <!--android:summary="@string/summary_preference_purchase"-->
+            <!--android:title="@string/title_preference_purchase" />-->
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="@string/dialog_based_preferences">-->
+    <!--<EditTextPreference-->
+    <!--android:dialogTitle="@string/dialog_title_edit_text_preference"-->
+    <!--android:key="edit_text_preference"-->
+    <!--android:summary="@string/summary_edit_text_preference"-->
+    <!--android:title="@string/title_edit_text_preference" />-->
+    <!--</PreferenceCategory>-->
+</PreferenceScreen>

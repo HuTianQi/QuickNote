@@ -1,0 +1,11 @@
+<paths>
+    <external-path
+        name="external_files"
+        path="." />
+    <files-path
+        name="images"
+        path="my_images/" />
+    <files-path
+        name="audios"
+        path="audios/" />
+</paths>

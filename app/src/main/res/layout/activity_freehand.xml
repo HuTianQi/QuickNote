@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/freehand_iv_paint"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/freehand_image_view_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/freehand_image_view_margin"
+            android:layout_marginRight="@dimen/freehand_image_view_margin"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/ic_brush_activated_24dp" />
+
+        <ImageView
+            android:id="@+id/freehand_iv_eraser"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/freehand_image_view_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/freehand_image_view_margin"
+            android:layout_marginRight="@dimen/freehand_image_view_margin"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/ic_eraser_unactivated_24dp" />
+
+        <ImageView
+            android:id="@+id/freehand_iv_revocation"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/freehand_image_view_height"
+            android:layout_marginLeft="@dimen/freehand_image_view_margin"
+            android:layout_marginRight="@dimen/freehand_image_view_margin"
+            android:layout_weight="1"
+            android:src="@drawable/ic_revocation_unactivated_24dp" />
+
+        <ImageView
+            android:id="@+id/freehand_iv_revert"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/freehand_image_view_height"
+            android:layout_marginLeft="@dimen/freehand_image_view_margin"
+            android:layout_marginRight="@dimen/freehand_image_view_margin"
+            android:layout_weight="1"
+            android:src="@drawable/ic_revert_unactivated_24dp" />
+
+        <ImageView
+            android:id="@+id/freehand_iv_clear"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/freehand_image_view_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/freehand_image_view_margin"
+            android:layout_marginRight="@dimen/freehand_image_view_margin"
+            android:layout_weight="1"
+            android:src="@drawable/ic_delete_forever_24dp" />
+    </LinearLayout>
+
+    <tech.huqi.quicknote.core.view.DrawingBoardView
+        android:id="@+id/draw_board"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

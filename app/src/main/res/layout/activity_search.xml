@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_search_items_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/recycler_view_left_right_margin"
+        android:layout_marginRight="@dimen/recycler_view_left_right_margin" />
+
+    <include
+        android:id="@+id/no_content_view"
+        layout="@layout/no_data_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+    <!--<ViewStub-->
+    <!--android:id="@+id/no_content_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout="@layout/no_data_view"-->
+    <!--android:visibility="invisible" />-->
+
+
+</FrameLayout>

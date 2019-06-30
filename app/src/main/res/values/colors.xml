@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3dadf9</color>
+    <color name="colorPrimaryDark">#98d0f7</color>
+    <color name="colorAccent">#3dadf9</color>
+
+    <!--通用颜色-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="window_background">#F8EFF2</color>
+    <color name="gray_8a">#8a8a8a</color>
+    <color name="nav_header_bg_color">#3dadf9</color>
+
+    <!--弹窗-->
+    <color name="pop_window_text_light">#999999</color>
+    <color name="pop_window_input_bg">#EDEDED</color>
+
+    <!--手势密码-->
+    <color name="gesture_text">#666666</color>
+    <color name="gesture_border_color_error">#F3323B</color>
+    <color name="gesture_inner_color">@color/colorPrimary</color>
+    <color name="gesture_create_confirm_correct">@color/gesture_inner_color</color>
+    <color name="gesture_create_confirm_error">@color/gesture_border_color_error</color>
+</resources>

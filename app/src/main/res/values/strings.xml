@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">随心记</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="mode_switch">模式切换</string>
+    <!--侧滑菜单-->
+    <string name="all_notes">所有笔记</string>
+    <string name="recent_edit">最近编辑</string>
+    <string name="waste_basket">废纸篓</string>
+    <string name="settings">设置</string>
+    <string name="share_app">分享</string>
+    <!--fab menu-->
+    <string name="fab_item_camera">拍照</string>
+    <string name="fab_item_attachment">附件</string>
+    <string name="fab_item_voice_shorthand">语音速记</string>
+    <string name="fab_item_freehand">手写</string>
+    <string name="fab_item_text">图文笔记</string>
+    <!-- note detail-->
+    <string name="hint_input_title">点击输入标题</string>
+    <string name="hint_input_content">记录下此刻的想法吧</string>
+    <!--toolbar menu detail-->
+    <string name="attachment">附件</string>
+    <string name="camera">相机</string>
+    <string name="send">发送</string>
+    <string name="remove">删除</string>
+    <string name="purchase_vip_tip">该功能为付费用户专享，您可以到设置界面进行捐赠后联系我获取付款码使用该收费功能</string>
+    <!--toolbar menu common-->
+    <string name="search">搜索</string>
+    <string name="sort">排序</string>
+    <!--toolbar menu sort-->
+    <string name="sort_by_ascending">按创建时间升序</string>
+    <string name="sort_by_descending">按创建时间降序</string>
+    <!--附件弹出菜单-->
+    <string name="attachment_pop_menu_album">照片</string>
+    <string name="attachment_pop_menu_record">语音识别</string>
+    <string name="attachment_pop_menu_freehand">手绘</string>
+
+    <!--主界面长按弹出菜单-->
+    <string name="rename">重命名</string>
+    <string name="encrypt">加密</string>
+    <!--废纸篓长按弹出菜单-->
+    <string name="recovery">恢复</string>
+    <string name="delete">彻底删除</string>
+
+    <string name="popup_window_cancel">取消</string>
+    <string name="popup_window_sure">确定</string>
+
+    <string name="title_freehand">手写</string>
+    <string name="alert">警告</string>
+    <string name="clear_freehand_tip">您确定要清除所有的记录吗？此操作执行后不可恢复</string>
+    <string name="is_save_note">是否保存笔记</string>
+
+    <string name="preference_app">应用</string>
+    <!--主题设置-->
+    <string name="preference_theme">主题</string>
+    <string name="summary_preference_theme">选择主题</string>
+    <string name="preference_theme_entry_night">夜间模式</string>
+    <string name="preference_theme_entry_default">默认</string>
+    <!--语言设置-->
+    <string name="preference_lang">语言</string>
+    <string name="summary_preference_lang">设置语言</string>
+    <string name="preference_lang_entry_chinese">简体中文</string>
+    <string name="preference_lang_entry_english">英文</string>
+    <!--自动更新-->
+    <string name="auto_check_update">自动检测更新</string>
+    <string name="summary_auto_check_update">在应用启动时自动检测是否有新版本</string>
+    <string name="preference_key_auto_check_update">preference_key_auto_check_update</string>
+    <string name="prompt_close_auto_update">关闭后如需更新，可到关于页面手动检查更新</string>
+    <!--手势密码-->
+    <string name="gesture_password">手势密码</string>
+    <string name="set_gesture_password">开启手势密码保护隐私</string>
+    <!--其他-->
+    <string name="preference_other">其他</string>
+    <string name="title_preference_about">关于</string>
+    <string name="summary_preference_about">当前版本,检查更新等</string>
+    <string name="preference_recommend">推荐随心记</string>
+    <string name="summary_preference_recommend">将随心记推荐给朋友们</string>
+    <string name="title_preference_purchase">捐赠或购买高级功能</string>
+    <string name="summary_preference_purchase">觉得很有用捐赠作者以示鼓励,或购买高级版本付费功能</string>
+    <string name="summary_preference_high_praise">喜欢，去应用商店给个好评</string>
+    <string name="title_preference_high_praise">好评</string>
+
+    <!--设置key与value-->
+    <string name="preference_key_theme">preference_key_theme</string>
+    <string name="theme_value_default">theme_default</string>
+    <string name="theme_value_night">theme_night</string>
+
+    <string name="preference_key_lang">preference_key_lang</string>
+    <string name="lang_value_default">lang_default</string>
+    <string name="lang_value_chinese">lang_chinese</string>
+    <string name="lang_value_english">lang_english</string>
+
+    <string name="preference_key_gesture_pwd">preference_key_gesture_pwd</string>
+    <string name="nick_default_tip">欢迎使用随心记</string>
+    <string name="preference_key_about">preference_key_about</string>
+    <string name="preference_key_recommend">preference_key_recommend</string>
+    <string name="preference_key_donate">preference_key_donate</string>
+    <string name="preference_key_high_praise">preference_key_favorable_reception</string>
+
+    <!--启动页-->
+    <string name="app_author">随心记 @hq All rights reserved</string>
+    <string name="app_slogan">简约好用的笔记App</string>
+
+    <!--手势密码解锁页面-->
+    <string name="gesture_lock_forget_pwd">忘记密码</string>
+    <string name="gesture_create_default">绘制手势图案</string>
+    <string name="gesture_create_correct">再次绘制解锁图案</string>
+    <string name="gesture_create_less_error">至少连接4个点，请重新输入</string>
+    <string name="gesture_create_confirm_error">与上一次绘制不一致，请重新绘制</string>
+    <string name="gesture_create_confirm_correct">设置成功</string>
+    <string name="draw_gesture_pwd_incorrect">解锁密码绘制不正确,请重新绘制</string>
+
+    <!--搜索页面-->
+    <string name="title_search">搜索</string>
+    <string name="search_no_data">没有搜到任何内容，换个关键词试试吧！</string>
+    <string name="scene_transition_search">scene_transition_search</string>
+
+    <!--语音速记页面-->
+    <string name="please_speak">点击底部语音按钮，然后说话即可自动识别...</string>
+    <string name="recognize_failed">语音识别失败</string>
+    <string name="voice_recognize_no_speech">语音探测引擎检测到长时间未说话，已自动关闭</string>
+    <string name="is_use_voice_auto_recognize_result">您确定使用语音自动识别结果吗？选择‘确定’后仍可在详情页自行编辑</string>
+
+    <!--关于页面-->
+    <string name="check_update">检测更新</string>
+    <string name="about">关于</string>
+    <string name="check_update_no_new_version">当前已是最新版本!</string>
+    <!--购买页面-->
+    <string name="purchase_payment">本App绝大部分功能免费，但有些高级功能收费，如果您想使用高级版付费功能，
+        使用微信扫描下面二维码付款后即可尊享一年的付费功能使用权。只需9.9即可尊享一年付费功能使用权！
+        或者您想打赏作者亦可以扫描二维码完成爱心捐赠!</string>
+    <string name="purchase">购买高级功能</string>
+
+    <!--分享-->
+    <string name="share_app_title">好东西要与小伙伴们一起分享</string>
+    <string name="share_app_content">亲爱的小伙伴，我发现了一款很好用的笔记类App，本着有福同享的原则赶紧分享给你！</string>
+    <!--权限-->
+    <string name="permission_tip">需要您授予录音权限以及读取手机状态权限使用语音速记功能以及文件读写权限存储您创建的笔记</string>
+    <string name="need_read_storage_permission">需要您授予读取外部存储权限以便访问您的相册图片</string>
+
+
+</resources>
